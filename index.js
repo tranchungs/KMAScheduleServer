@@ -2,7 +2,7 @@ const express = require("express");
 const axios = require("axios");
 const cors = require("cors");
 const bodyParser = require("body-parser");
-const PORT = process.env.PORT || 8888;
+const PORT = process.env.PORT || 8000;
 let ScheduleRouter = require("./Schedule/Schedule");
 
 const app = express();
